@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/TreasureIslandFoundationKit.framework/Info.plist</key>
 		<data>
-		ycOjisfJeVQKbdNPYxNYFbvWKM4=
+		RWKE15OuJ47OzVL4CFBTiH3+X/c=
 		</data>
 		<key>ios-arm64/TreasureIslandFoundationKit.framework/Modules/TreasureIslandFoundationKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>ios-arm64/TreasureIslandFoundationKit.framework/TreasureIslandFoundationKit</key>
 		<data>
-		poXc1ylX+Y2jtIxtd3cGrZjvBdI=
+		SfoR2Ey/Kdw5ZXJWDiujSXKu8+w=
 		</data>
 		<key>ios-arm64/TreasureIslandFoundationKit.framework/TreasureIslandXConfig.xcconfig</key>
 		<data>
-		morS3oRVhne4pXxtvlPcWzrnTbo=
+		lPpfToGSi2FPfMT/6AlpK6VLC6o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TreasureIslandFoundationKit.framework/Headers/TreasureIslandFoundationKit.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TreasureIslandFoundationKit.framework/Info.plist</key>
 		<data>
-		k/Ob4pdA71O/aYfL5s8+F2aOr+4=
+		di6Hct6OZ0Jh4Dm17C+C3ogOk7I=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TreasureIslandFoundationKit.framework/Modules/TreasureIslandFoundationKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -94,15 +94,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TreasureIslandFoundationKit.framework/TreasureIslandFoundationKit</key>
 		<data>
-		m+/o3WA2DwJDIxVePGBi31y+d9E=
+		+Qy/DIRMtOtdARaEoll4CBwW7UU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TreasureIslandFoundationKit.framework/TreasureIslandXConfig.xcconfig</key>
 		<data>
-		morS3oRVhne4pXxtvlPcWzrnTbo=
+		lPpfToGSi2FPfMT/6AlpK6VLC6o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TreasureIslandFoundationKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		38CBIcUxPtEkxaJOHtoWKo8YbmA=
+		sb89i8CRhCQsESDduGRq31MwTLc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -122,11 +122,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ycOjisfJeVQKbdNPYxNYFbvWKM4=
+			RWKE15OuJ47OzVL4CFBTiH3+X/c=
 			</data>
 			<key>hash2</key>
 			<data>
-			o3KLN1fB+K7zELkSTGrduhSojnw9OFA0mwYWEv+jzZU=
+			WP6IwGIr+h5p01JtWXGbjb9maFHlR/eJRp4ipv+p4/U=
 			</data>
 		</dict>
 		<key>ios-arm64/TreasureIslandFoundationKit.framework/Modules/TreasureIslandFoundationKit.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -199,22 +199,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			poXc1ylX+Y2jtIxtd3cGrZjvBdI=
+			SfoR2Ey/Kdw5ZXJWDiujSXKu8+w=
 			</data>
 			<key>hash2</key>
 			<data>
-			s+NV+CzDcwIZGnzMF0Yei+j/36AUz+T7bcXR5+2hgbA=
+			/DOnndQZI1nBXBlTDA+h5xxjXZ3hklO1Tg3dKneqvBQ=
 			</data>
 		</dict>
 		<key>ios-arm64/TreasureIslandFoundationKit.framework/TreasureIslandXConfig.xcconfig</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			morS3oRVhne4pXxtvlPcWzrnTbo=
+			lPpfToGSi2FPfMT/6AlpK6VLC6o=
 			</data>
 			<key>hash2</key>
 			<data>
-			GnyutN/PATiXDdbvkkWONpyNTKRLSz62ixN2U+2mkR4=
+			no4RtTdDyp+cDg6YT2BGaC4sDCGNukxZZdaS5Ey7jEg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TreasureIslandFoundationKit.framework/Headers/TreasureIslandFoundationKit.h</key>
@@ -232,11 +232,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k/Ob4pdA71O/aYfL5s8+F2aOr+4=
+			di6Hct6OZ0Jh4Dm17C+C3ogOk7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			oAcT2VL8WtT0UEtUJu4y9jGGu8hmzuEnJ4OiM804Dos=
+			i4uwFDTwdRNGHwO6nRn56UYNnEgi+ec5iBTTX0uSxXE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TreasureIslandFoundationKit.framework/Modules/TreasureIslandFoundationKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -353,33 +353,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m+/o3WA2DwJDIxVePGBi31y+d9E=
+			+Qy/DIRMtOtdARaEoll4CBwW7UU=
 			</data>
 			<key>hash2</key>
 			<data>
-			mU05Yn7UuTU8EloAADTay5twgaz1HDh76t1Adh/7hoE=
+			lUjcY9Wl3xJ/7k6nVqRM8FLGh/AS3MMSk8vjCp9opVc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TreasureIslandFoundationKit.framework/TreasureIslandXConfig.xcconfig</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			morS3oRVhne4pXxtvlPcWzrnTbo=
+			lPpfToGSi2FPfMT/6AlpK6VLC6o=
 			</data>
 			<key>hash2</key>
 			<data>
-			GnyutN/PATiXDdbvkkWONpyNTKRLSz62ixN2U+2mkR4=
+			no4RtTdDyp+cDg6YT2BGaC4sDCGNukxZZdaS5Ey7jEg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TreasureIslandFoundationKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			38CBIcUxPtEkxaJOHtoWKo8YbmA=
+			sb89i8CRhCQsESDduGRq31MwTLc=
 			</data>
 			<key>hash2</key>
 			<data>
-			H2Bi5TARDzWWPHqOSgc86URE+WHeDyaWPmwU9Aybhfs=
+			ukPT0dgMR73j8kYjBQddfVV523u3xS6HGbOzijhuXB0=
 			</data>
 		</dict>
 	</dict>
