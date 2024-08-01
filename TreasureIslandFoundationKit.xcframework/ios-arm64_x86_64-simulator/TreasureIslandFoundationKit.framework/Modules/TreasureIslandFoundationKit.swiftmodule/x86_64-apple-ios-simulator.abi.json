@@ -1,0 +1,4682 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PreviewDeviceType",
+        "printedName": "PreviewDeviceType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "iPhone15",
+            "printedName": "iPhone15",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.PreviewDeviceType.Type) -> TreasureIslandFoundationKit.PreviewDeviceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PreviewDeviceType",
+                    "printedName": "TreasureIslandFoundationKit.PreviewDeviceType",
+                    "usr": "s:27TreasureIslandFoundationKit17PreviewDeviceTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.PreviewDeviceType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PreviewDeviceType",
+                        "printedName": "TreasureIslandFoundationKit.PreviewDeviceType",
+                        "usr": "s:27TreasureIslandFoundationKit17PreviewDeviceTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit17PreviewDeviceTypeO8iPhone15yA2CmF",
+            "mangledName": "$s27TreasureIslandFoundationKit17PreviewDeviceTypeO8iPhone15yA2CmF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TreasureIslandFoundationKit.PreviewDeviceType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PreviewDeviceType",
+                    "printedName": "TreasureIslandFoundationKit.PreviewDeviceType",
+                    "usr": "s:27TreasureIslandFoundationKit17PreviewDeviceTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:27TreasureIslandFoundationKit17PreviewDeviceTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s27TreasureIslandFoundationKit17PreviewDeviceTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "TreasureIslandFoundationKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit17PreviewDeviceTypeO8rawValueSSvp",
+            "mangledName": "$s27TreasureIslandFoundationKit17PreviewDeviceTypeO8rawValueSSvp",
+            "moduleName": "TreasureIslandFoundationKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit17PreviewDeviceTypeO8rawValueSSvg",
+                "mangledName": "$s27TreasureIslandFoundationKit17PreviewDeviceTypeO8rawValueSSvg",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TreasureIslandFoundationKit.PreviewDeviceType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PreviewDeviceType",
+                    "printedName": "TreasureIslandFoundationKit.PreviewDeviceType",
+                    "usr": "s:27TreasureIslandFoundationKit17PreviewDeviceTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit17PreviewDeviceTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s27TreasureIslandFoundationKit17PreviewDeviceTypeO8allCasesSayACGvpZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TreasureIslandFoundationKit.PreviewDeviceType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PreviewDeviceType",
+                        "printedName": "TreasureIslandFoundationKit.PreviewDeviceType",
+                        "usr": "s:27TreasureIslandFoundationKit17PreviewDeviceTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit17PreviewDeviceTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s27TreasureIslandFoundationKit17PreviewDeviceTypeO8allCasesSayACGvgZ",
+                "moduleName": "TreasureIslandFoundationKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:27TreasureIslandFoundationKit17PreviewDeviceTypeO",
+        "mangledName": "$s27TreasureIslandFoundationKit17PreviewDeviceTypeO",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TreasureIslandFoundationKit.PreviewDeviceType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PreviewDeviceType",
+                        "printedName": "TreasureIslandFoundationKit.PreviewDeviceType",
+                        "usr": "s:27TreasureIslandFoundationKit17PreviewDeviceTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CompletionCallback",
+        "printedName": "CompletionCallback",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1> (TreasureIslandFoundationKit.CompletionCallback<τ_0_0, τ_0_1>.Type) -> (τ_0_0) -> TreasureIslandFoundationKit.CompletionCallback<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> TreasureIslandFoundationKit.CompletionCallback<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CompletionCallback",
+                        "printedName": "TreasureIslandFoundationKit.CompletionCallback<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:27TreasureIslandFoundationKit18CompletionCallbackO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.CompletionCallback<τ_0_0, τ_0_1>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CompletionCallback",
+                        "printedName": "TreasureIslandFoundationKit.CompletionCallback<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:27TreasureIslandFoundationKit18CompletionCallbackO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit18CompletionCallbackO7successyACyxq_GxcAEmr0_lF",
+            "mangledName": "$s27TreasureIslandFoundationKit18CompletionCallbackO7successyACyxq_GxcAEmr0_lF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Var",
+            "name": "failed",
+            "printedName": "failed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1> (TreasureIslandFoundationKit.CompletionCallback<τ_0_0, τ_0_1>.Type) -> (τ_0_1) -> TreasureIslandFoundationKit.CompletionCallback<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_1) -> TreasureIslandFoundationKit.CompletionCallback<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CompletionCallback",
+                        "printedName": "TreasureIslandFoundationKit.CompletionCallback<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:27TreasureIslandFoundationKit18CompletionCallbackO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.CompletionCallback<τ_0_0, τ_0_1>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CompletionCallback",
+                        "printedName": "TreasureIslandFoundationKit.CompletionCallback<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:27TreasureIslandFoundationKit18CompletionCallbackO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit18CompletionCallbackO6failedyACyxq_Gq_cAEmr0_lF",
+            "mangledName": "$s27TreasureIslandFoundationKit18CompletionCallbackO6failedyACyxq_Gq_cAEmr0_lF",
+            "moduleName": "TreasureIslandFoundationKit"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:27TreasureIslandFoundationKit18CompletionCallbackO",
+        "mangledName": "$s27TreasureIslandFoundationKit18CompletionCallbackO",
+        "moduleName": "TreasureIslandFoundationKit",
+        "genericSig": "<τ_0_0, τ_0_1>",
+        "sugared_genericSig": "<T, R>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationContract",
+        "printedName": "NotificationContract",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "retrieveStatus",
+            "printedName": "retrieveStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotifyStatus",
+                "printedName": "TreasureIslandFoundationKit.NotifyStatus",
+                "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit20NotificationContractP14retrieveStatusAA06NotifyH0OyF",
+            "mangledName": "$s27TreasureIslandFoundationKit20NotificationContractP14retrieveStatusAA06NotifyH0OyF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : TreasureIslandFoundationKit.NotificationContract>",
+            "sugared_genericSig": "<Self where Self : TreasureIslandFoundationKit.NotificationContract>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateStatus",
+            "printedName": "updateStatus(status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotifyStatus",
+                "printedName": "TreasureIslandFoundationKit.NotifyStatus",
+                "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit20NotificationContractP12updateStatus6statusyAA06NotifyH0O_tF",
+            "mangledName": "$s27TreasureIslandFoundationKit20NotificationContractP12updateStatus6statusyAA06NotifyH0O_tF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : TreasureIslandFoundationKit.NotificationContract>",
+            "sugared_genericSig": "<Self where Self : TreasureIslandFoundationKit.NotificationContract>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deliverNotification",
+            "printedName": "deliverNotification(title:content:delaySeconds:payload:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit20NotificationContractP07deliverE05title7content12delaySeconds7payload17completionHandlerySS_SSSiSDyS2SGSgySbctF",
+            "mangledName": "$s27TreasureIslandFoundationKit20NotificationContractP07deliverE05title7content12delaySeconds7payload17completionHandlerySS_SSSiSDyS2SGSgySbctF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : TreasureIslandFoundationKit.NotificationContract>",
+            "sugared_genericSig": "<Self where Self : TreasureIslandFoundationKit.NotificationContract>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openInduceView",
+            "printedName": "openInduceView(rootViewController:title:content:delaySeconds:payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit20NotificationContractP14openInduceView04rootI10Controller5title7content12delaySeconds7payloadySo06UIViewK0C_S2SSiSStF",
+            "mangledName": "$s27TreasureIslandFoundationKit20NotificationContractP14openInduceView04rootI10Controller5title7content12delaySeconds7payloadySo06UIViewK0C_S2SSiSStF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : TreasureIslandFoundationKit.NotificationContract>",
+            "sugared_genericSig": "<Self where Self : TreasureIslandFoundationKit.NotificationContract>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openSetting",
+            "printedName": "openSetting(rootViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit20NotificationContractP11openSetting18rootViewControllerySo06UIViewK0C_tF",
+            "mangledName": "$s27TreasureIslandFoundationKit20NotificationContractP11openSetting18rootViewControllerySo06UIViewK0C_tF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : TreasureIslandFoundationKit.NotificationContract>",
+            "sugared_genericSig": "<Self where Self : TreasureIslandFoundationKit.NotificationContract>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:27TreasureIslandFoundationKit20NotificationContractP",
+        "mangledName": "$s27TreasureIslandFoundationKit20NotificationContractP",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BehaviorDataWebContent",
+        "printedName": "BehaviorDataWebContent",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "retrieveContentUrl",
+            "printedName": "retrieveContentUrl(ticket:ticketType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit22BehaviorDataWebContentV08retrieveH3Url6ticket0K4TypeSSSgSS_SStFZ",
+            "mangledName": "$s27TreasureIslandFoundationKit22BehaviorDataWebContentV08retrieveH3Url6ticket0K4TypeSSSgSS_SStFZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:27TreasureIslandFoundationKit22BehaviorDataWebContentV",
+        "mangledName": "$s27TreasureIslandFoundationKit22BehaviorDataWebContentV",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrackingAuthorizationStatus",
+        "printedName": "TrackingAuthorizationStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.TrackingAuthorizationStatus.Type) -> TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingAuthorizationStatus",
+                    "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                    "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingAuthorizationStatus",
+                        "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                        "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO4noneyA2CmF",
+            "mangledName": "$s27TreasureIslandFoundationKit27TrackingAuthorizationStatusO4noneyA2CmF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Var",
+            "name": "notDetermined",
+            "printedName": "notDetermined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.TrackingAuthorizationStatus.Type) -> TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingAuthorizationStatus",
+                    "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                    "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingAuthorizationStatus",
+                        "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                        "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO13notDeterminedyA2CmF",
+            "mangledName": "$s27TreasureIslandFoundationKit27TrackingAuthorizationStatusO13notDeterminedyA2CmF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Var",
+            "name": "restricted",
+            "printedName": "restricted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.TrackingAuthorizationStatus.Type) -> TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingAuthorizationStatus",
+                    "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                    "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingAuthorizationStatus",
+                        "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                        "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO10restrictedyA2CmF",
+            "mangledName": "$s27TreasureIslandFoundationKit27TrackingAuthorizationStatusO10restrictedyA2CmF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Var",
+            "name": "denied",
+            "printedName": "denied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.TrackingAuthorizationStatus.Type) -> TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingAuthorizationStatus",
+                    "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                    "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingAuthorizationStatus",
+                        "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                        "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO6deniedyA2CmF",
+            "mangledName": "$s27TreasureIslandFoundationKit27TrackingAuthorizationStatusO6deniedyA2CmF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Var",
+            "name": "authorized",
+            "printedName": "authorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.TrackingAuthorizationStatus.Type) -> TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingAuthorizationStatus",
+                    "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                    "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingAuthorizationStatus",
+                        "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                        "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO10authorizedyA2CmF",
+            "mangledName": "$s27TreasureIslandFoundationKit27TrackingAuthorizationStatusO10authorizedyA2CmF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrackingAuthorizationStatus",
+                "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrackingAuthorizationStatus",
+                "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s27TreasureIslandFoundationKit27TrackingAuthorizationStatusO2eeoiySbAC_ACtFZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO9hashValueSivp",
+            "mangledName": "$s27TreasureIslandFoundationKit27TrackingAuthorizationStatusO9hashValueSivp",
+            "moduleName": "TreasureIslandFoundationKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO9hashValueSivg",
+                "mangledName": "$s27TreasureIslandFoundationKit27TrackingAuthorizationStatusO9hashValueSivg",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s27TreasureIslandFoundationKit27TrackingAuthorizationStatusO4hash4intoys6HasherVz_tF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO",
+        "mangledName": "$s27TreasureIslandFoundationKit27TrackingAuthorizationStatusO",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TalsesHandler",
+        "printedName": "TalsesHandler",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TalsesHandler",
+                "printedName": "TreasureIslandFoundationKit.TalsesHandler",
+                "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC6sharedACvpZ",
+            "mangledName": "$s27TreasureIslandFoundationKit13TalsesHandlerC6sharedACvpZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TalsesHandler",
+                    "printedName": "TreasureIslandFoundationKit.TalsesHandler",
+                    "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC6sharedACvgZ",
+                "mangledName": "$s27TreasureIslandFoundationKit13TalsesHandlerC6sharedACvgZ",
+                "moduleName": "TreasureIslandFoundationKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowLog",
+            "printedName": "allowLog",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC8allowLogSbvp",
+            "mangledName": "$s27TreasureIslandFoundationKit13TalsesHandlerC8allowLogSbvp",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC8allowLogSbvg",
+                "mangledName": "$s27TreasureIslandFoundationKit13TalsesHandlerC8allowLogSbvg",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC8allowLogSbvs",
+                "mangledName": "$s27TreasureIslandFoundationKit13TalsesHandlerC8allowLogSbvs",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC8allowLogSbvM",
+                "mangledName": "$s27TreasureIslandFoundationKit13TalsesHandlerC8allowLogSbvM",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "i",
+            "printedName": "i(stackGroup:stackMessage:stackFilePath:stackLineNumber:stackFunctionName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC1i10stackGroup0G7Message0G8FilePath0G10LineNumber0G12FunctionNameySS_S2SSiSStF",
+            "mangledName": "$s27TreasureIslandFoundationKit13TalsesHandlerC1i10stackGroup0G7Message0G8FilePath0G10LineNumber0G12FunctionNameySS_S2SSiSStF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "d",
+            "printedName": "d(stackGroup:stackMessage:stackFilePath:stackLineNumber:stackFunctionName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC1d10stackGroup0G7Message0G8FilePath0G10LineNumber0G12FunctionNameySS_S2SSiSStF",
+            "mangledName": "$s27TreasureIslandFoundationKit13TalsesHandlerC1d10stackGroup0G7Message0G8FilePath0G10LineNumber0G12FunctionNameySS_S2SSiSStF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "w",
+            "printedName": "w(stackGroup:stackMessage:stackFilePath:stackLineNumber:stackFunctionName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC1w10stackGroup0G7Message0G8FilePath0G10LineNumber0G12FunctionNameySS_S2SSiSStF",
+            "mangledName": "$s27TreasureIslandFoundationKit13TalsesHandlerC1w10stackGroup0G7Message0G8FilePath0G10LineNumber0G12FunctionNameySS_S2SSiSStF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "e",
+            "printedName": "e(stackGroup:stackMessage:stackFilePath:stackLineNumber:stackFunctionName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC1e10stackGroup0G7Message0G8FilePath0G10LineNumber0G12FunctionNameySS_S2SSiSStF",
+            "mangledName": "$s27TreasureIslandFoundationKit13TalsesHandlerC1e10stackGroup0G7Message0G8FilePath0G10LineNumber0G12FunctionNameySS_S2SSiSStF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "p",
+            "printedName": "p(stackGroup:stackMessage:stackFilePath:stackLineNumber:stackFunctionName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC1p10stackGroup0G7Message0G8FilePath0G10LineNumber0G12FunctionNameySS_S2SSiSStF",
+            "mangledName": "$s27TreasureIslandFoundationKit13TalsesHandlerC1p10stackGroup0G7Message0G8FilePath0G10LineNumber0G12FunctionNameySS_S2SSiSStF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:27TreasureIslandFoundationKit13TalsesHandlerC",
+        "mangledName": "$s27TreasureIslandFoundationKit13TalsesHandlerC",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BehaviorDataAccount",
+        "printedName": "BehaviorDataAccount",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "retrieveTicket",
+            "printedName": "retrieveTicket(providerUid:advertisingId:tokenProvider:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TokenProvider",
+                "printedName": "TreasureIslandFoundationKit.TokenProvider",
+                "usr": "s:27TreasureIslandFoundationKit13TokenProviderO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.BehaviorDataResult<TreasureIslandFoundationKit.AccountTicketData>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BehaviorDataResult",
+                    "printedName": "TreasureIslandFoundationKit.BehaviorDataResult<TreasureIslandFoundationKit.AccountTicketData>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccountTicketData",
+                        "printedName": "TreasureIslandFoundationKit.AccountTicketData",
+                        "usr": "s:27TreasureIslandFoundationKit17AccountTicketDataV"
+                      }
+                    ],
+                    "usr": "s:27TreasureIslandFoundationKit18BehaviorDataResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit19BehaviorDataAccountV14retrieveTicket11providerUid13advertisingId13tokenProvider17completionHandlerySS_SSAA05TokenO0OyAA0eF6ResultOyAA0giF0VGctFZ",
+            "mangledName": "$s27TreasureIslandFoundationKit19BehaviorDataAccountV14retrieveTicket11providerUid13advertisingId13tokenProvider17completionHandlerySS_SSAA05TokenO0OyAA0eF6ResultOyAA0giF0VGctFZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:27TreasureIslandFoundationKit19BehaviorDataAccountV",
+        "mangledName": "$s27TreasureIslandFoundationKit19BehaviorDataAccountV",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotifyStatus",
+        "printedName": "NotifyStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.NotifyStatus.Type) -> TreasureIslandFoundationKit.NotifyStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotifyStatus",
+                    "printedName": "TreasureIslandFoundationKit.NotifyStatus",
+                    "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.NotifyStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotifyStatus",
+                        "printedName": "TreasureIslandFoundationKit.NotifyStatus",
+                        "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO4noneyA2CmF",
+            "mangledName": "$s27TreasureIslandFoundationKit12NotifyStatusO4noneyA2CmF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Var",
+            "name": "allow",
+            "printedName": "allow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.NotifyStatus.Type) -> TreasureIslandFoundationKit.NotifyStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotifyStatus",
+                    "printedName": "TreasureIslandFoundationKit.NotifyStatus",
+                    "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.NotifyStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotifyStatus",
+                        "printedName": "TreasureIslandFoundationKit.NotifyStatus",
+                        "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO5allowyA2CmF",
+            "mangledName": "$s27TreasureIslandFoundationKit12NotifyStatusO5allowyA2CmF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Var",
+            "name": "deny",
+            "printedName": "deny",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.NotifyStatus.Type) -> TreasureIslandFoundationKit.NotifyStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotifyStatus",
+                    "printedName": "TreasureIslandFoundationKit.NotifyStatus",
+                    "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.NotifyStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotifyStatus",
+                        "printedName": "TreasureIslandFoundationKit.NotifyStatus",
+                        "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO4denyyA2CmF",
+            "mangledName": "$s27TreasureIslandFoundationKit12NotifyStatusO4denyyA2CmF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TreasureIslandFoundationKit.NotifyStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotifyStatus",
+                    "printedName": "TreasureIslandFoundationKit.NotifyStatus",
+                    "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s27TreasureIslandFoundationKit12NotifyStatusO8rawValueACSgSi_tcfc",
+            "moduleName": "TreasureIslandFoundationKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO8rawValueSivp",
+            "mangledName": "$s27TreasureIslandFoundationKit12NotifyStatusO8rawValueSivp",
+            "moduleName": "TreasureIslandFoundationKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO8rawValueSivg",
+                "mangledName": "$s27TreasureIslandFoundationKit12NotifyStatusO8rawValueSivg",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO",
+        "mangledName": "$s27TreasureIslandFoundationKit12NotifyStatusO",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RLanguageType",
+        "printedName": "RLanguageType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "korean",
+            "printedName": "korean",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.RLanguageType.Type) -> TreasureIslandFoundationKit.RLanguageType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RLanguageType",
+                    "printedName": "TreasureIslandFoundationKit.RLanguageType",
+                    "usr": "s:27TreasureIslandFoundationKit13RLanguageTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.RLanguageType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RLanguageType",
+                        "printedName": "TreasureIslandFoundationKit.RLanguageType",
+                        "usr": "s:27TreasureIslandFoundationKit13RLanguageTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit13RLanguageTypeO6koreanyA2CmF",
+            "mangledName": "$s27TreasureIslandFoundationKit13RLanguageTypeO6koreanyA2CmF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RLanguageType",
+                "printedName": "TreasureIslandFoundationKit.RLanguageType",
+                "usr": "s:27TreasureIslandFoundationKit13RLanguageTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RLanguageType",
+                "printedName": "TreasureIslandFoundationKit.RLanguageType",
+                "usr": "s:27TreasureIslandFoundationKit13RLanguageTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13RLanguageTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s27TreasureIslandFoundationKit13RLanguageTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit13RLanguageTypeO9hashValueSivp",
+            "mangledName": "$s27TreasureIslandFoundationKit13RLanguageTypeO9hashValueSivp",
+            "moduleName": "TreasureIslandFoundationKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit13RLanguageTypeO9hashValueSivg",
+                "mangledName": "$s27TreasureIslandFoundationKit13RLanguageTypeO9hashValueSivg",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13RLanguageTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s27TreasureIslandFoundationKit13RLanguageTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:27TreasureIslandFoundationKit13RLanguageTypeO",
+        "mangledName": "$s27TreasureIslandFoundationKit13RLanguageTypeO",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BehaviorDataResult",
+        "printedName": "BehaviorDataResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (TreasureIslandFoundationKit.BehaviorDataResult<τ_0_0>.Type) -> (τ_0_0) -> TreasureIslandFoundationKit.BehaviorDataResult<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> TreasureIslandFoundationKit.BehaviorDataResult<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BehaviorDataResult",
+                        "printedName": "TreasureIslandFoundationKit.BehaviorDataResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:27TreasureIslandFoundationKit18BehaviorDataResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.BehaviorDataResult<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BehaviorDataResult",
+                        "printedName": "TreasureIslandFoundationKit.BehaviorDataResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:27TreasureIslandFoundationKit18BehaviorDataResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit18BehaviorDataResultO7successyACyxGxcAEmlF",
+            "mangledName": "$s27TreasureIslandFoundationKit18BehaviorDataResultO7successyACyxGxcAEmlF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (TreasureIslandFoundationKit.BehaviorDataResult<τ_0_0>.Type) -> (Swift.Int, Swift.String) -> TreasureIslandFoundationKit.BehaviorDataResult<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.String) -> TreasureIslandFoundationKit.BehaviorDataResult<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BehaviorDataResult",
+                        "printedName": "TreasureIslandFoundationKit.BehaviorDataResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:27TreasureIslandFoundationKit18BehaviorDataResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(status: Swift.Int, message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.BehaviorDataResult<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BehaviorDataResult",
+                        "printedName": "TreasureIslandFoundationKit.BehaviorDataResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:27TreasureIslandFoundationKit18BehaviorDataResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit18BehaviorDataResultO7failureyACyxGSi_SStcAEmlF",
+            "mangledName": "$s27TreasureIslandFoundationKit18BehaviorDataResultO7failureyACyxGSi_SStcAEmlF",
+            "moduleName": "TreasureIslandFoundationKit"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:27TreasureIslandFoundationKit18BehaviorDataResultO",
+        "mangledName": "$s27TreasureIslandFoundationKit18BehaviorDataResultO",
+        "moduleName": "TreasureIslandFoundationKit",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PurchaseContract",
+        "printedName": "PurchaseContract",
+        "declKind": "Protocol",
+        "usr": "s:27TreasureIslandFoundationKit16PurchaseContractP",
+        "mangledName": "$s27TreasureIslandFoundationKit16PurchaseContractP",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TokenProvider",
+        "printedName": "TokenProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "base",
+            "printedName": "base",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.TokenProvider.Type) -> TreasureIslandFoundationKit.TokenProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenProvider",
+                    "printedName": "TreasureIslandFoundationKit.TokenProvider",
+                    "usr": "s:27TreasureIslandFoundationKit13TokenProviderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.TokenProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenProvider",
+                        "printedName": "TreasureIslandFoundationKit.TokenProvider",
+                        "usr": "s:27TreasureIslandFoundationKit13TokenProviderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit13TokenProviderO4baseyA2CmF",
+            "mangledName": "$s27TreasureIslandFoundationKit13TokenProviderO4baseyA2CmF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Var",
+            "name": "channeling",
+            "printedName": "channeling",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.TokenProvider.Type) -> TreasureIslandFoundationKit.TokenProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenProvider",
+                    "printedName": "TreasureIslandFoundationKit.TokenProvider",
+                    "usr": "s:27TreasureIslandFoundationKit13TokenProviderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TreasureIslandFoundationKit.TokenProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenProvider",
+                        "printedName": "TreasureIslandFoundationKit.TokenProvider",
+                        "usr": "s:27TreasureIslandFoundationKit13TokenProviderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:27TreasureIslandFoundationKit13TokenProviderO10channelingyA2CmF",
+            "mangledName": "$s27TreasureIslandFoundationKit13TokenProviderO10channelingyA2CmF",
+            "moduleName": "TreasureIslandFoundationKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TreasureIslandFoundationKit.TokenProvider?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenProvider",
+                    "printedName": "TreasureIslandFoundationKit.TokenProvider",
+                    "usr": "s:27TreasureIslandFoundationKit13TokenProviderO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:27TreasureIslandFoundationKit13TokenProviderO8rawValueACSgSS_tcfc",
+            "mangledName": "$s27TreasureIslandFoundationKit13TokenProviderO8rawValueACSgSS_tcfc",
+            "moduleName": "TreasureIslandFoundationKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit13TokenProviderO8rawValueSSvp",
+            "mangledName": "$s27TreasureIslandFoundationKit13TokenProviderO8rawValueSSvp",
+            "moduleName": "TreasureIslandFoundationKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit13TokenProviderO8rawValueSSvg",
+                "mangledName": "$s27TreasureIslandFoundationKit13TokenProviderO8rawValueSSvg",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:27TreasureIslandFoundationKit13TokenProviderO",
+        "mangledName": "$s27TreasureIslandFoundationKit13TokenProviderO",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FoundationKitProperty",
+        "printedName": "FoundationKitProperty",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ServerEnvironment",
+            "printedName": "ServerEnvironment",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "develop",
+                "printedName": "develop",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment.Type) -> TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServerEnvironment",
+                        "printedName": "TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment",
+                        "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerEnvironment",
+                            "printedName": "TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment",
+                            "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO7developyA2EmF",
+                "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO7developyA2EmF",
+                "moduleName": "TreasureIslandFoundationKit"
+              },
+              {
+                "kind": "Var",
+                "name": "test",
+                "printedName": "test",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment.Type) -> TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServerEnvironment",
+                        "printedName": "TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment",
+                        "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerEnvironment",
+                            "printedName": "TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment",
+                            "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO4testyA2EmF",
+                "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO4testyA2EmF",
+                "moduleName": "TreasureIslandFoundationKit"
+              },
+              {
+                "kind": "Var",
+                "name": "live",
+                "printedName": "live",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment.Type) -> TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServerEnvironment",
+                        "printedName": "TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment",
+                        "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerEnvironment",
+                            "printedName": "TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment",
+                            "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO4liveyA2EmF",
+                "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO4liveyA2EmF",
+                "moduleName": "TreasureIslandFoundationKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServerEnvironment",
+                    "printedName": "TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment",
+                    "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServerEnvironment",
+                    "printedName": "TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment",
+                    "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO2eeoiySbAE_AEtFZ",
+                "moduleName": "TreasureIslandFoundationKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO9hashValueSivp",
+                "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO9hashValueSivp",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO9hashValueSivg",
+                    "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO9hashValueSivg",
+                    "moduleName": "TreasureIslandFoundationKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO4hash4intoys6HasherVz_tF",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO",
+            "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bridgeName",
+            "printedName": "bridgeName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC10bridgeNameSSvpZ",
+            "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC10bridgeNameSSvpZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC10bridgeNameSSvgZ",
+                "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC10bridgeNameSSvgZ",
+                "moduleName": "TreasureIslandFoundationKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resourceLnguageType",
+            "printedName": "resourceLnguageType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RLanguageType",
+                "printedName": "TreasureIslandFoundationKit.RLanguageType",
+                "usr": "s:27TreasureIslandFoundationKit13RLanguageTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC19resourceLnguageTypeAA09RLanguageH0OvpZ",
+            "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC19resourceLnguageTypeAA09RLanguageH0OvpZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RLanguageType",
+                    "printedName": "TreasureIslandFoundationKit.RLanguageType",
+                    "usr": "s:27TreasureIslandFoundationKit13RLanguageTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC19resourceLnguageTypeAA09RLanguageH0OvgZ",
+                "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC19resourceLnguageTypeAA09RLanguageH0OvgZ",
+                "moduleName": "TreasureIslandFoundationKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "registerContractor",
+            "printedName": "registerContractor(contractorNotification:contractorPurchase:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any TreasureIslandFoundationKit.NotificationContract)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationContract",
+                    "printedName": "any TreasureIslandFoundationKit.NotificationContract",
+                    "usr": "s:27TreasureIslandFoundationKit20NotificationContractP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any TreasureIslandFoundationKit.PurchaseContract)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PurchaseContract",
+                    "printedName": "any TreasureIslandFoundationKit.PurchaseContract",
+                    "usr": "s:27TreasureIslandFoundationKit16PurchaseContractP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC18registerContractor22contractorNotification0H8PurchaseyAA0I8Contract_pSg_AA0jK0_pSgtFZ",
+            "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC18registerContractor22contractorNotification0H8PurchaseyAA0I8Contract_pSg_AA0jK0_pSgtFZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "notificationContractor",
+            "printedName": "notificationContractor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any TreasureIslandFoundationKit.NotificationContract)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationContract",
+                    "printedName": "any TreasureIslandFoundationKit.NotificationContract",
+                    "usr": "s:27TreasureIslandFoundationKit20NotificationContractP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC22notificationContractorAA20NotificationContract_pSgvpZ",
+            "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC22notificationContractorAA20NotificationContract_pSgvpZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any TreasureIslandFoundationKit.NotificationContract)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationContract",
+                        "printedName": "any TreasureIslandFoundationKit.NotificationContract",
+                        "usr": "s:27TreasureIslandFoundationKit20NotificationContractP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC22notificationContractorAA20NotificationContract_pSgvgZ",
+                "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC22notificationContractorAA20NotificationContract_pSgvgZ",
+                "moduleName": "TreasureIslandFoundationKit",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "purchaseContractor",
+            "printedName": "purchaseContractor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any TreasureIslandFoundationKit.PurchaseContract)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PurchaseContract",
+                    "printedName": "any TreasureIslandFoundationKit.PurchaseContract",
+                    "usr": "s:27TreasureIslandFoundationKit16PurchaseContractP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC18purchaseContractorAA16PurchaseContract_pSgvpZ",
+            "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC18purchaseContractorAA16PurchaseContract_pSgvpZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any TreasureIslandFoundationKit.PurchaseContract)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PurchaseContract",
+                        "printedName": "any TreasureIslandFoundationKit.PurchaseContract",
+                        "usr": "s:27TreasureIslandFoundationKit16PurchaseContractP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC18purchaseContractorAA16PurchaseContract_pSgvgZ",
+                "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC18purchaseContractorAA16PurchaseContract_pSgvgZ",
+                "moduleName": "TreasureIslandFoundationKit",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isInit",
+            "printedName": "isInit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC6isInitSbvpZ",
+            "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC6isInitSbvpZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC6isInitSbvgZ",
+                "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC6isInitSbvgZ",
+                "moduleName": "TreasureIslandFoundationKit",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "config",
+            "printedName": "config(appId:appSecret:environment:allowLog:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ServerEnvironment",
+                "printedName": "TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment",
+                "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC17ServerEnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.CompletionCallback<Swift.Bool, Swift.String>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CompletionCallback",
+                    "printedName": "TreasureIslandFoundationKit.CompletionCallback<Swift.Bool, Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:27TreasureIslandFoundationKit18CompletionCallbackO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC6config5appId0G6Secret11environment8allowLog17completionHandlerySS_SSAC17ServerEnvironmentOSbyAA18CompletionCallbackOySbSSGctFZ",
+            "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC6config5appId0G6Secret11environment8allowLog17completionHandlerySS_SSAC17ServerEnvironmentOSbyAA18CompletionCallbackOySbSSGctFZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:27TreasureIslandFoundationKit0cD8PropertyC",
+        "mangledName": "$s27TreasureIslandFoundationKit0cD8PropertyC",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RefineHandler",
+        "printedName": "RefineHandler",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RefineHandler",
+                "printedName": "TreasureIslandFoundationKit.RefineHandler",
+                "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC6sharedACvpZ",
+            "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC6sharedACvpZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RefineHandler",
+                    "printedName": "TreasureIslandFoundationKit.RefineHandler",
+                    "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC6sharedACvgZ",
+                "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC6sharedACvgZ",
+                "moduleName": "TreasureIslandFoundationKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveOSVersion",
+            "printedName": "retrieveOSVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC17retrieveOSVersionSSyKF",
+            "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC17retrieveOSVersionSSyKF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveDeviceModelName",
+            "printedName": "retrieveDeviceModelName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC23retrieveDeviceModelNameSSyKF",
+            "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC23retrieveDeviceModelNameSSyKF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveSDKVersionName",
+            "printedName": "retrieveSDKVersionName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC22retrieveSDKVersionNameSSSgyKF",
+            "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC22retrieveSDKVersionNameSSSgyKF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveAppPackageName",
+            "printedName": "retrieveAppPackageName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC22retrieveAppPackageNameSSSgyKF",
+            "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC22retrieveAppPackageNameSSSgyKF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveAppVersionCode",
+            "printedName": "retrieveAppVersionCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC22retrieveAppVersionCodeSSSgyKF",
+            "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC22retrieveAppVersionCodeSSSgyKF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveAppVersionName",
+            "printedName": "retrieveAppVersionName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC22retrieveAppVersionNameSSSgyKF",
+            "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC22retrieveAppVersionNameSSSgyKF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hexColor",
+            "printedName": "hexColor(hexCode:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC8hexColor0G4Code5alphaSo7UIColorCSS_04CoreC07CGFloatVtF",
+            "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC8hexColor0G4Code5alphaSo7UIColorCSS_12CoreGraphics7CGFloatVtF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestAppTrackingAuthorization",
+            "printedName": "requestAppTrackingAuthorization(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TreasureIslandFoundationKit.TrackingAuthorizationStatus, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(TreasureIslandFoundationKit.TrackingAuthorizationStatus, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingAuthorizationStatus",
+                        "printedName": "TreasureIslandFoundationKit.TrackingAuthorizationStatus",
+                        "usr": "s:27TreasureIslandFoundationKit27TrackingAuthorizationStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC31requestAppTrackingAuthorization010completionF0yyAA0iJ6StatusO_SStc_tF",
+            "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC31requestAppTrackingAuthorization010completionF0yyAA0iJ6StatusO_SStc_tF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveUIWindow",
+            "printedName": "retrieveUIWindow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC16retrieveUIWindowSo0H0CSgyF",
+            "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC16retrieveUIWindowSo0H0CSgyF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveSafeAreaInsetBottom",
+            "printedName": "retrieveSafeAreaInsetBottom()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC27retrieveSafeAreaInsetBottom04CoreC07CGFloatVyF",
+            "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC27retrieveSafeAreaInsetBottom12CoreGraphics7CGFloatVyF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveSafeAreaInsetTop",
+            "printedName": "retrieveSafeAreaInsetTop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC24retrieveSafeAreaInsetTop04CoreC07CGFloatVyF",
+            "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC24retrieveSafeAreaInsetTop12CoreGraphics7CGFloatVyF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:27TreasureIslandFoundationKit13RefineHandlerC",
+        "mangledName": "$s27TreasureIslandFoundationKit13RefineHandlerC",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AccountTicketData",
+        "printedName": "AccountTicketData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tikcet",
+            "printedName": "tikcet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit17AccountTicketDataV6tikcetSSvp",
+            "mangledName": "$s27TreasureIslandFoundationKit17AccountTicketDataV6tikcetSSvp",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit17AccountTicketDataV6tikcetSSvg",
+                "mangledName": "$s27TreasureIslandFoundationKit17AccountTicketDataV6tikcetSSvg",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ticketType",
+            "printedName": "ticketType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit17AccountTicketDataV10ticketTypeSSvp",
+            "mangledName": "$s27TreasureIslandFoundationKit17AccountTicketDataV10ticketTypeSSvp",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit17AccountTicketDataV10ticketTypeSSvg",
+                "mangledName": "$s27TreasureIslandFoundationKit17AccountTicketDataV10ticketTypeSSvg",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:27TreasureIslandFoundationKit17AccountTicketDataV",
+        "mangledName": "$s27TreasureIslandFoundationKit17AccountTicketDataV",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BMSUIViewController",
+        "printedName": "BMSUIViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BMSUIViewController",
+                "printedName": "TreasureIslandFoundationKit.BMSUIViewController",
+                "usr": "c:@M@TreasureIslandFoundationKit@objc(cs)BMSUIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TreasureIslandFoundationKit@objc(cs)BMSUIViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s27TreasureIslandFoundationKit19BMSUIViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "TreasureIslandFoundationKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TreasureIslandFoundationKit.BMSUIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BMSUIViewController",
+                    "printedName": "TreasureIslandFoundationKit.BMSUIViewController",
+                    "usr": "c:@M@TreasureIslandFoundationKit@objc(cs)BMSUIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TreasureIslandFoundationKit@objc(cs)BMSUIViewController(im)initWithCoder:",
+            "mangledName": "$s27TreasureIslandFoundationKit19BMSUIViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "TreasureIslandFoundationKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showToast",
+            "printedName": "showToast(_:withDuration:delay:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureIslandFoundationKit19BMSUIViewControllerC9showToast_12withDuration5delay17completionHandlerySS_S2dyyctF",
+            "mangledName": "$s27TreasureIslandFoundationKit19BMSUIViewControllerC9showToast_12withDuration5delay17completionHandlerySS_S2dyyctF",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TreasureIslandFoundationKit@objc(cs)BMSUIViewController",
+        "mangledName": "$s27TreasureIslandFoundationKit19BMSUIViewControllerC",
+        "moduleName": "TreasureIslandFoundationKit",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RFoundation",
+        "printedName": "RFoundation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RFoundation",
+                "printedName": "TreasureIslandFoundationKit.RFoundation",
+                "usr": "s:27TreasureIslandFoundationKit11RFoundationC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit11RFoundationC6sharedACvpZ",
+            "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC6sharedACvpZ",
+            "moduleName": "TreasureIslandFoundationKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RFoundation",
+                    "printedName": "TreasureIslandFoundationKit.RFoundation",
+                    "usr": "s:27TreasureIslandFoundationKit11RFoundationC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit11RFoundationC6sharedACvgZ",
+                "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC6sharedACvgZ",
+                "moduleName": "TreasureIslandFoundationKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "messageButton",
+            "printedName": "messageButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MessageButton",
+                "printedName": "TreasureIslandFoundationKit.RFoundation.MessageButton",
+                "usr": "s:27TreasureIslandFoundationKit11RFoundationC13MessageButtonC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27TreasureIslandFoundationKit11RFoundationC13messageButtonAC07MessageG0Cvp",
+            "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC13messageButtonAC07MessageG0Cvp",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "Lazy",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MessageButton",
+                    "printedName": "TreasureIslandFoundationKit.RFoundation.MessageButton",
+                    "usr": "s:27TreasureIslandFoundationKit11RFoundationC13MessageButtonC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit11RFoundationC13messageButtonAC07MessageG0Cvg",
+                "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC13messageButtonAC07MessageG0Cvg",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MessageButton",
+                    "printedName": "TreasureIslandFoundationKit.RFoundation.MessageButton",
+                    "usr": "s:27TreasureIslandFoundationKit11RFoundationC13MessageButtonC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit11RFoundationC13messageButtonAC07MessageG0Cvs",
+                "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC13messageButtonAC07MessageG0Cvs",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27TreasureIslandFoundationKit11RFoundationC13messageButtonAC07MessageG0CvM",
+                "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC13messageButtonAC07MessageG0CvM",
+                "moduleName": "TreasureIslandFoundationKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "MessageButton",
+            "printedName": "MessageButton",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "confirm",
+                "printedName": "confirm",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:27TreasureIslandFoundationKit11RFoundationC13MessageButtonC7confirmSSvp",
+                "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC13MessageButtonC7confirmSSvp",
+                "moduleName": "TreasureIslandFoundationKit",
+                "declAttributes": [
+                  "Lazy",
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:27TreasureIslandFoundationKit11RFoundationC13MessageButtonC7confirmSSvg",
+                    "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC13MessageButtonC7confirmSSvg",
+                    "moduleName": "TreasureIslandFoundationKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:27TreasureIslandFoundationKit11RFoundationC13MessageButtonC7confirmSSvs",
+                    "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC13MessageButtonC7confirmSSvs",
+                    "moduleName": "TreasureIslandFoundationKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:27TreasureIslandFoundationKit11RFoundationC13MessageButtonC7confirmSSvM",
+                    "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC13MessageButtonC7confirmSSvM",
+                    "moduleName": "TreasureIslandFoundationKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "cancel",
+                "printedName": "cancel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:27TreasureIslandFoundationKit11RFoundationC13MessageButtonC6cancelSSvp",
+                "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC13MessageButtonC6cancelSSvp",
+                "moduleName": "TreasureIslandFoundationKit",
+                "declAttributes": [
+                  "Lazy",
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:27TreasureIslandFoundationKit11RFoundationC13MessageButtonC6cancelSSvg",
+                    "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC13MessageButtonC6cancelSSvg",
+                    "moduleName": "TreasureIslandFoundationKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:27TreasureIslandFoundationKit11RFoundationC13MessageButtonC6cancelSSvs",
+                    "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC13MessageButtonC6cancelSSvs",
+                    "moduleName": "TreasureIslandFoundationKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:27TreasureIslandFoundationKit11RFoundationC13MessageButtonC6cancelSSvM",
+                    "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC13MessageButtonC6cancelSSvM",
+                    "moduleName": "TreasureIslandFoundationKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:27TreasureIslandFoundationKit11RFoundationC13MessageButtonC",
+            "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC13MessageButtonC",
+            "moduleName": "TreasureIslandFoundationKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "hasMissingDesignatedInitializers": true
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:27TreasureIslandFoundationKit11RFoundationC",
+        "mangledName": "$s27TreasureIslandFoundationKit11RFoundationC",
+        "moduleName": "TreasureIslandFoundationKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/UI\/PreviewContainer.swift",
+      "kind": "StringLiteral",
+      "offset": 1214,
+      "length": 11,
+      "value": "\"iPhone 15\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/UI\/PreviewContainer.swift",
+      "kind": "StringLiteral",
+      "offset": 1214,
+      "length": 11,
+      "value": "\"iPhone 15\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 15,
+      "value": "\"TalsesHandler\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 384,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 429,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 384,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 429,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 384,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 429,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/TalsesHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 717,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Model\/Entity\/Notification\/NotifyStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 166,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Model\/Entity\/Notification\/NotifyStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Model\/Entity\/Notification\/NotifyStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Model\/Entity\/Notification\/NotifyStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 166,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Model\/Entity\/Notification\/NotifyStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Model\/Entity\/Notification\/NotifyStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Model\/Entity\/Notification\/NotifyStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 166,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Model\/Entity\/Notification\/NotifyStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Model\/Entity\/Notification\/NotifyStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Model\/TokenProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 6,
+      "value": "\"base\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Model\/TokenProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 9,
+      "value": "\"channel\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Model\/TokenProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 6,
+      "value": "\"base\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Model\/TokenProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 9,
+      "value": "\"channel\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/FoundationKitProperty.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 38,
+      "value": "\"https:\/\/%@.treasurecomics.com\/api\/%@\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/FoundationKitProperty.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 56,
+      "value": "\"https:\/\/%@.treasurecomics.com\/?ticket=%@&ticketType=%@\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/FoundationKitProperty.swift",
+      "kind": "StringLiteral",
+      "offset": 1052,
+      "length": 13,
+      "value": "\"treasureKit\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/FoundationKitProperty.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2060,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 221,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 221,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 8,
+      "value": "\"Bearer\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 7,
+      "value": "\"Basic\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 8,
+      "value": "\"Bearer\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 7,
+      "value": "\"Basic\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "Dictionary",
+      "offset": 926,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "Dictionary",
+      "offset": 964,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Component\/Data\/Voyage\/Voyager.swift",
+      "kind": "Dictionary",
+      "offset": 6244,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/Library\/RefineHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 1798,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/R\/RFoundation.swift",
+      "kind": "StringLiteral",
+      "offset": 505,
+      "length": 8,
+      "value": "\"확인\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandFoundationKit\/TreasureIslandFoundationKit\/R\/RFoundation.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 8,
+      "value": "\"취소\""
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios17.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TreasureIslandFoundationKit
+import AdSupport
+import AppTrackingTransparency
+import Foundation
+import Swift
+import SwiftUI
+import SystemConfiguration
+@_exported import TreasureIslandFoundationKit
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum PreviewDeviceType : Swift.String, Swift.CaseIterable {
+  case iPhone15
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [TreasureIslandFoundationKit.PreviewDeviceType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [TreasureIslandFoundationKit.PreviewDeviceType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CompletionCallback<T, R> {
+  case success(T)
+  case failed(R)
+}
+public protocol NotificationContract {
+  func retrieveStatus() -> TreasureIslandFoundationKit.NotifyStatus
+  func updateStatus(status: TreasureIslandFoundationKit.NotifyStatus)
+  func deliverNotification(title: Swift.String, content: Swift.String, delaySeconds: Swift.Int, payload: [Swift.String : Swift.String]?, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  func openInduceView(rootViewController: UIKit.UIViewController, title: Swift.String, content: Swift.String, delaySeconds: Swift.Int, payload: Swift.String)
+  func openSetting(rootViewController: UIKit.UIViewController)
+}
+public struct BehaviorDataWebContent {
+  public static func retrieveContentUrl(ticket: Swift.String, ticketType: Swift.String) -> Swift.String?
+}
+public enum TrackingAuthorizationStatus {
+  case none
+  case notDetermined
+  case restricted
+  case denied
+  case authorized
+  public static func == (a: TreasureIslandFoundationKit.TrackingAuthorizationStatus, b: TreasureIslandFoundationKit.TrackingAuthorizationStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class TalsesHandler {
+  public static let shared: TreasureIslandFoundationKit.TalsesHandler
+  public var allowLog: Swift.Bool
+  public func i(stackGroup: Swift.String, stackMessage: Swift.String, stackFilePath: Swift.String = #file, stackLineNumber: Swift.Int = #line, stackFunctionName: Swift.String = #function)
+  public func d(stackGroup: Swift.String, stackMessage: Swift.String, stackFilePath: Swift.String = #file, stackLineNumber: Swift.Int = #line, stackFunctionName: Swift.String = #function)
+  public func w(stackGroup: Swift.String, stackMessage: Swift.String, stackFilePath: Swift.String = #file, stackLineNumber: Swift.Int = #line, stackFunctionName: Swift.String = #function)
+  public func e(stackGroup: Swift.String, stackMessage: Swift.String, stackFilePath: Swift.String = #file, stackLineNumber: Swift.Int = #line, stackFunctionName: Swift.String = #function)
+  public func p(stackGroup: Swift.String, stackMessage: Swift.String, stackFilePath: Swift.String = #file, stackLineNumber: Swift.Int = #line, stackFunctionName: Swift.String = #function)
+  @objc deinit
+}
+public struct BehaviorDataAccount {
+  public static func retrieveTicket(providerUid: Swift.String, advertisingId: Swift.String, tokenProvider: TreasureIslandFoundationKit.TokenProvider, completionHandler: @escaping (TreasureIslandFoundationKit.BehaviorDataResult<TreasureIslandFoundationKit.AccountTicketData>) -> Swift.Void)
+}
+public enum NotifyStatus : Swift.Int {
+  case none
+  case allow
+  case deny
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum RLanguageType {
+  case korean
+  public static func == (a: TreasureIslandFoundationKit.RLanguageType, b: TreasureIslandFoundationKit.RLanguageType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BehaviorDataResult<T> {
+  case success(T)
+  case failure(status: Swift.Int, message: Swift.String)
+}
+public protocol PurchaseContract {
+}
+public enum TokenProvider : Swift.String {
+  case base
+  case channeling
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class FoundationKitProperty {
+  public enum ServerEnvironment {
+    case develop, test, live
+    public static func == (a: TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment, b: TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public static let bridgeName: Swift.String
+  public static var resourceLnguageType: TreasureIslandFoundationKit.RLanguageType {
+    get
+  }
+  public static func registerContractor(contractorNotification: (any TreasureIslandFoundationKit.NotificationContract)? = nil, contractorPurchase: (any TreasureIslandFoundationKit.PurchaseContract)? = nil)
+  public static var notificationContractor: (any TreasureIslandFoundationKit.NotificationContract)? {
+    get
+  }
+  public static var purchaseContractor: (any TreasureIslandFoundationKit.PurchaseContract)? {
+    get
+  }
+  public static var isInit: Swift.Bool {
+    get
+  }
+  public static func config(appId: Swift.String, appSecret: Swift.String, environment serverEnvironment: TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment, allowLog: Swift.Bool = false, completionHandler: @escaping (TreasureIslandFoundationKit.CompletionCallback<Swift.Bool, Swift.String>) -> Swift.Void)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class RefineHandler {
+  public static let shared: TreasureIslandFoundationKit.RefineHandler
+  public func retrieveOSVersion() throws -> Swift.String
+  public func retrieveDeviceModelName() throws -> Swift.String
+  public func retrieveSDKVersionName() throws -> Swift.String?
+  public func retrieveAppPackageName() throws -> Swift.String?
+  public func retrieveAppVersionCode() throws -> Swift.String?
+  public func retrieveAppVersionName() throws -> Swift.String?
+  public func hexColor(hexCode: Swift.String, alpha: CoreFoundation.CGFloat = 1.0) -> UIKit.UIColor
+  public func requestAppTrackingAuthorization(completionHandler: @escaping (TreasureIslandFoundationKit.TrackingAuthorizationStatus, Swift.String) -> Swift.Void)
+  public func retrieveUIWindow() -> UIKit.UIWindow?
+  public func retrieveSafeAreaInsetBottom() -> CoreFoundation.CGFloat
+  public func retrieveSafeAreaInsetTop() -> CoreFoundation.CGFloat
+  @objc deinit
+}
+public struct AccountTicketData {
+  public let tikcet: Swift.String
+  public let ticketType: Swift.String
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class BMSUIViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension TreasureIslandFoundationKit.BMSUIViewController {
+  @_Concurrency.MainActor(unsafe) public func showToast(_ message: Swift.String, withDuration: Swift.Double, delay: Swift.Double, completionHandler: @escaping () -> Swift.Void)
+}
+@_hasMissingDesignatedInitializers public class RFoundation {
+  public static let shared: TreasureIslandFoundationKit.RFoundation
+  public var messageButton: TreasureIslandFoundationKit.RFoundation.MessageButton {
+    get
+    set
+  }
+  @_hasMissingDesignatedInitializers public class MessageButton {
+    public var confirm: Swift.String {
+      get
+      set
+    }
+    public var cancel: Swift.String {
+      get
+      set
+    }
+    @objc deinit
+  }
+  @objc deinit
+}
+extension TreasureIslandFoundationKit.PreviewDeviceType : Swift.Equatable {}
+extension TreasureIslandFoundationKit.PreviewDeviceType : Swift.Hashable {}
+extension TreasureIslandFoundationKit.PreviewDeviceType : Swift.RawRepresentable {}
+extension TreasureIslandFoundationKit.TrackingAuthorizationStatus : Swift.Equatable {}
+extension TreasureIslandFoundationKit.TrackingAuthorizationStatus : Swift.Hashable {}
+extension TreasureIslandFoundationKit.NotifyStatus : Swift.Equatable {}
+extension TreasureIslandFoundationKit.NotifyStatus : Swift.Hashable {}
+extension TreasureIslandFoundationKit.NotifyStatus : Swift.RawRepresentable {}
+extension TreasureIslandFoundationKit.RLanguageType : Swift.Equatable {}
+extension TreasureIslandFoundationKit.RLanguageType : Swift.Hashable {}
+extension TreasureIslandFoundationKit.TokenProvider : Swift.Equatable {}
+extension TreasureIslandFoundationKit.TokenProvider : Swift.Hashable {}
+extension TreasureIslandFoundationKit.TokenProvider : Swift.RawRepresentable {}
+extension TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment : Swift.Equatable {}
+extension TreasureIslandFoundationKit.FoundationKitProperty.ServerEnvironment : Swift.Hashable {}
